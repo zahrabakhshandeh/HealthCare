@@ -62,6 +62,6 @@ export interface NavElementType {
 export interface ServiceBoxType {
     header: string, 
     body: string, 
-    icon: FunctionComponent|any,
-    color: string,
+    icon?: FunctionComponent|any,
+    color?: string,
 }
