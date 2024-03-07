@@ -58,3 +58,10 @@ export interface NavElementType {
     icon?: FunctionComponent|any,
     link: String,
 };
+
+export interface ServiceBoxType {
+    header: string, 
+    body: string, 
+    icon: FunctionComponent|any,
+    color: string,
+}
