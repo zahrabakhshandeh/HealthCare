@@ -21,5 +21,4 @@ const MainButton = (props: TButton) => {
     </button>
   );
 };
-
 export default MainButton;
