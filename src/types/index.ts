@@ -55,5 +55,6 @@ password: string;
 
 export interface NavElementType {
     text: String, 
-    icon?: FunctionComponent,
+    icon?: FunctionComponent|any,
+    link: String,
 };
