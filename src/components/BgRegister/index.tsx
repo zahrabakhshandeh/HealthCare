@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const BackgroundRegister = (props: { loginMode: boolean }) => {
   return (
     <div
@@ -9,4 +11,4 @@ const BackgroundRegister = (props: { loginMode: boolean }) => {
     ></div>
   );
 };
-export default BackgroundRegister;
+export default memo(BackgroundRegister);
