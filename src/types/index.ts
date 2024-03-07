@@ -64,4 +64,5 @@ export interface ServiceBoxType {
     body: string, 
     icon?: FunctionComponent|any,
     color?: string,
+    link?: string
 }

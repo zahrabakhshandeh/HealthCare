@@ -16,7 +16,7 @@ export default function Home() {
         <div className='col-span-full '>
           <Search />
         </div>
-        <div>
+        <div className='col-span-full '>
           <ServiceSection />
         </div>
       </div>
