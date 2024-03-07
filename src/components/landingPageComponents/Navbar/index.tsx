@@ -2,8 +2,8 @@ import NavElement from "../NavElement";
 
 const Navbar = () => {
     return(
-        <nav className="py-10 bg-[var(--back-ground-white)] p-2 flex justify-center"> 
-            <ul className="flex flex-row gap-7 justify-center items-center">
+        <nav className="py-10 bg-[var(--back-ground-white)] p-2 flex justify-center shadow-lg"> 
+            <ul className="flex flex-row gap-7 justify-center items-center ">
                 <li>
                     <NavElement text=" خانه" link='./s' />
                 </li>
@@ -15,6 +15,9 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavElement text="کمک" link='./s'/>
+                </li>
+                <li>
+                    <NavElement text="فرم ها" link='./s'/>
                 </li>
             </ul>
         </nav>
