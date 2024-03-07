@@ -3,7 +3,7 @@ import { NavElementType } from "@/types";
 const NavElement = ({text, icon}: NavElementType) => {
     return(
         <>
-            <h1 className = "text-2xl bold">
+            <h1 className = "text-xl bold">
                 {text}
             </h1>
             {icon}

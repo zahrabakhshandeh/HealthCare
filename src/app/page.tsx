@@ -1,10 +1,10 @@
-import LoginArt from '/public/login.svg'
+import Navbar from '@/components/landingPageComponents/Navbar';
 
 export default function Home() {
   return (
     <main>
       <div>
-        Health Care
+        <Navbar />
       </div>
     </main>
   );
