@@ -52,3 +52,11 @@ email: string;
 export type LoginDataType = {
 phoneNumber: string;
 };
+
+export type IdentifyUserType = {
+    codeOne:string
+    codeTwo:string
+    codeThree:string
+    codeFour:string
+    codeFive:string
+}
