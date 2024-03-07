@@ -52,3 +52,8 @@ export type LoginDataType = {
 username: string;
 password: string;
 };
+
+export interface NavElementType {
+    text: String, 
+    icon?: FunctionComponent,
+};
