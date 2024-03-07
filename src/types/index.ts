@@ -31,6 +31,7 @@ iconSrc?: FunctionComponent;
 
 export type TInput = InputHTMLAttributes<HTMLDivElement> & {
 register?: any;
+inputClassName?:string;
 className?: string;
 firsticonsrc?: FunctionComponent;
 };
