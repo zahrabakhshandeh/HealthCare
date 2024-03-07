@@ -61,3 +61,9 @@ body {
   -webkit-box-shadow: 0px 4px 10px 0px rgba(3, 128, 98 , 0.4);
   -moz-box-shadow: 0px 4px 10px 0px rgba(3, 128, 98 , 0.4);
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
