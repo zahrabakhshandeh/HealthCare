@@ -2,8 +2,8 @@
 import { TInput } from "@/types";
 import React, { ChangeEvent, forwardRef } from "react";
 import { useCallback, useMemo } from "react";
-import OpenEyeICon from "/public/eye.svg";
-import CloseEyeICon from "/public/eye-slash.svg";
+import OpenEyeICon from "/public/svg/eye.svg";
+import CloseEyeICon from "/public/svg/eye-slash.svg";
 
 const MainInput = forwardRef<
   HTMLInputElement,

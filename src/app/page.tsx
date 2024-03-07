@@ -1,5 +1,6 @@
 import Hero from '@/components/landingPageComponents/Hero';
 import Navbar from '@/components/landingPageComponents/Navbar';
+import Search from '@/components/landingPageComponents/Search';
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
         </div>
         <div className='col-span-full'>
           <Hero />
+        </div>
+        <div className='col-span-full '>
+          <Search />
         </div>
       </div>
     </main>
