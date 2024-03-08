@@ -6,7 +6,7 @@ const ServiceSection = () => {
     return(
         <div className="grid lg:grid-cols-4 grid-cols-2 lg:mx-32 mt-20">
             <div className="flex justify-center items-center col-span-1">
-                <ServiceBox color="bg-slate-600" header="خدمات" body=" توضیحات توضیحات توضیحات توضیحات" icon={<ServiceFemale />}/>
+                <ServiceBox header="خدمات" body=" توضیحات توضیحات توضیحات توضیحات" icon={<ServiceFemale />}/>
             </div>
             <div className="flex justify-center items-center col-span-1">
                 <ServiceBox header="خدمات" body="توضیحات توضیحات توضیحات توضیحات" icon={<ServiceLung />}/>

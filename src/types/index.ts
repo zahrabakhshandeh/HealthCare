@@ -68,6 +68,6 @@ export interface ServiceBoxType {
 }
 
 export interface TextBoxType {
-    tittle:string, 
-    body: string,
+    tittle: string,
+    body: string
 }
