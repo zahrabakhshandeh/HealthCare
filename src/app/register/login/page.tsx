@@ -1,6 +1,3 @@
-import LoginBox from "@/components/FormLoginBox";
-import LoginArt from "/public/svg/loginArt.svg";
-import BackgroundRegister from "@/components/BgRegister";
 import FormLogin from "@/components/FormLoginBox/FormLogin";
 
 const Login = () => {
