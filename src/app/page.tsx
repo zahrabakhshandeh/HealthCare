@@ -25,7 +25,8 @@ export default function Home() {
           <HeaderSection/>
         </div> */}
         <div className='col-span-full'>
-          <TextSection/> 
+          <TextSection size='desktop'/> 
+          <TextSection size='mobile'/> 
         </div>
       </div>
     </main>

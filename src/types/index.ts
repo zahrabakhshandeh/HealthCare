@@ -71,3 +71,7 @@ export interface TextBoxType {
     tittle: string,
     body: string
 }
+
+export interface TextSectionType {
+    size: string,
+}

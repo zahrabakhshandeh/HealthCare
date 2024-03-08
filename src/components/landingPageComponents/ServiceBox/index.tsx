@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ServiceBox = ({header, body, icon, color, link}:ServiceBoxType ) => {
     return(
-        <Link href={`${link}`} className="flex justify-center items-center flex-col m-14 md:scale-75  2xl:scale-125 scale-150">
+        <Link href={`${link}`} className="flex justify-center items-center flex-col m-14  2xl:scale-125 scale-125">
             <div className={`${color} rounded-full bg-[var(--green-btn)] w-20 h-20 flex justify-center items-center m-4`}>
                 <div className="scale-50">
                     {icon?icon:<DefaultLogo />}
@@ -17,4 +17,4 @@ const ServiceBox = ({header, body, icon, color, link}:ServiceBoxType ) => {
         </Link>
     )
 };
-export default ServiceBox;
+export default ServiceBox;  
