@@ -15,7 +15,7 @@ const FormLogin = () => {
   useEffect(() => {
     phoneNumberRef.current?.focus();
     if (errors) {
-        toast.error(errors.phoneNumber?.message);
+      toast.error(errors.phoneNumber?.message);
     }
   }, [errors]);
 
