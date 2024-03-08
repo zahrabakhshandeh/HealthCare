@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="text-5xl">
                 LOGO
             </div>
-            <ul className="flex flex-row gap-7 justify-center items-center ">
+            <ul className="flex flex-row gap-7 justify-center items-center md:hidden lg:flex">
                 <li>
                     <NavElement text=" خانه" link='./s' />
                 </li>
