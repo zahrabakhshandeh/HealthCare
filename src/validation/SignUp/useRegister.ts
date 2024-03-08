@@ -1,7 +1,7 @@
 import { SignUpDataType } from "./../../types/index";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/navigation";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import * as yup from "yup";
@@ -49,18 +49,19 @@ const useRegister = () => {
   } = useForm<SignUpDataType>({
     resolver: yupResolver(SignUpSchema),
   });
-
-  if (errors.userID) {
-    toast.error(errors.userID.message);
-  } else if (errors.username) {
-    toast.error(errors.username.message);
-  } else if (errors.password) {
-    toast.error(errors.password.message);
-  } else if (errors.passwordCheck) {
-    toast.error(errors.passwordCheck.message);
-  } else if (errors.email) {
-    toast.error(errors.email.message);
-  }
+  useEffect(() => {
+    if (errors.userID) {
+      toast.error(errors.userID.message);
+    } else if (errors.username) {
+      toast.error(errors.username.message);
+    } else if (errors.password) {
+      toast.error(errors.password.message);
+    } else if (errors.passwordCheck) {
+      toast.error(errors.passwordCheck.message);
+    } else if (errors.email) {
+      toast.error(errors.email.message);
+    }
+  }, [errors.email , errors.password , errors.passwordCheck , errors.userID , errors.username]);
 
   const { push } = useRouter();
 
