@@ -10,7 +10,7 @@ const Search = () => {
             </div>
             <div className="z-10 flex justify-center absolute items-center flex-col xl:gap-4 gap-1">
                 <h2 className="xl:text-7xl lg:text-6xl text-xl">
-                    دنبال دکتر خاصی هستید؟
+                    دنبال خدمات خاصی هستید؟
                 </h2>
                 <h2 className="xl:text-7xl lg:text-6xl text-xl">
                     جستجو کنید و نوبت بگیرید.   

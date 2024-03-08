@@ -4,7 +4,7 @@ import ServiceLung from "/public/svg/service_lung.svg"
 
 const ServiceSection = () => {
     return(
-        <div className="grid grid-cols-4 mx-32">
+        <div className="grid lg:grid-cols-4 grid-cols-2 lg:mx-32 mt-20">
             <div className="flex justify-center items-center col-span-1">
                 <ServiceBox header="خدمات" body=" توضیحات توضیحات توضیحات توضیحات" icon={<ServiceFemale />}/>
             </div>

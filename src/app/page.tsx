@@ -1,3 +1,4 @@
+import HeaderSection from '@/components/landingPageComponents/Header_HowWeHelp';
 import Hero from '@/components/landingPageComponents/Hero';
 import Navbar from '@/components/landingPageComponents/Navbar';
 import Search from '@/components/landingPageComponents/Search';
@@ -13,12 +14,15 @@ export default function Home() {
         <div className='col-span-full'>
           <Hero />
         </div>
-        <div className='col-span-full '>
+        {/* <div className='col-span-full '>
           <Search />
-        </div>
-        <div className='col-span-full '>
+        </div> */}
+        <div className='col-span-full'>
           <ServiceSection />
         </div>
+        {/* <div className='col-span-full'>
+          <HeaderSection/>
+        </div> */}
       </div>
     </main>
   );
