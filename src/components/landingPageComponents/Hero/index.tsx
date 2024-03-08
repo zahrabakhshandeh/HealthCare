@@ -15,7 +15,7 @@ const Hero = () => {
                     <MainButton value="شروع کنیم!" className="bg-[var(--green-btn)] xl:w-1/3 lg:w-2/3 h-20 lg:mx-36 hover:bg-[var(--hover-green)] hover:duration-100 xl:scale-95 2xl:scale-100 scale-90"/>
                 </div>
                 
-                <div className="lg:mt-32 xl:col-span-8 lg:col-span-9 px-0 col-span-2 flex justify-center">
+                <div className="lg:mt-48 xl:col-span-8 lg:col-span-9 px-0 col-span-2 flex justify-center">
                     <HeroSvg />
                 </div>
             </div>

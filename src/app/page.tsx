@@ -3,6 +3,7 @@ import Hero from '@/components/landingPageComponents/Hero';
 import Navbar from '@/components/landingPageComponents/Navbar';
 import Search from '@/components/landingPageComponents/Search';
 import ServiceSection from '@/components/landingPageComponents/SerciveSection';
+import TextSection from '@/components/landingPageComponents/TextSection/indx';
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
         {/* <div className='col-span-full'>
           <HeaderSection/>
         </div> */}
+        <div className='col-span-full'>
+          <TextSection/> 
+        </div>
       </div>
     </main>
   );
