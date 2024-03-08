@@ -2,7 +2,7 @@ import { TextBoxType } from "@/types";
 
 const TextBox = ({tittle, body}: TextBoxType) => {
     return(
-        <div className="flex gap-12 items-center mx-36 mt-16 flex-col">
+        <div className="flex gap-12 items-center md:mx-36 mx-14 mt-16 flex-col">
             <h2 className="text-7xl lg:text-6xl">
                 {tittle}
             </h2>
