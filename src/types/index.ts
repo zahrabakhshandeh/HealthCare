@@ -66,3 +66,8 @@ export interface ServiceBoxType {
     color?: string,
     link?: string
 }
+
+export interface TextBoxType {
+    tittle:string, 
+    body: string,
+}

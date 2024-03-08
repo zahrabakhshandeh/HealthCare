@@ -11,8 +11,8 @@ const ServiceBox = ({header, body, icon, color, link}:ServiceBoxType ) => {
                 </div>
             </div>
             <div className="flex justify-center flex-col items-center">
-                <h2 className="text-5xl">{header}</h2>
-                <p className="text-base p-2 m-2">{body}</p>
+                <p className="text-5xl">{header}</p>
+                <p className="text-base">{body}</p>
             </div>
         </Link>
     )
