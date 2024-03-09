@@ -8,7 +8,7 @@ import { TextSectionType } from "@/types";
 const TextSection = ({size}:TextSectionType) => {
     if(size == 'desktop'){
         return(
-            <div className="lg:grid space-y-28 gap-y-32 lg:grid-cols-9 grid-cols-2 m-10 mt-36 hidden">
+            <div className="lg:grid space-y-28 items-center gap-y-32 lg:grid-cols-9 grid-cols-2 m-10 mt-36 hidden">
                 <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100">
                     <HowToHelp_svg1 />
                 </div>
