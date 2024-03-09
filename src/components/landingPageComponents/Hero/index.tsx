@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="grid lg:grid-cols-12 grid-cols-2 gap-16 bg-[var(--primary-blue)] w-full">
 
                 <div className="xl:col-span-4 lg:col-span-3 col-span-2 flex justify-center items-center flex-col mt-28">
-                    <h2 className="text-white xl:text-5xl lg:text-4xl text-5xl xl:p-16 p-16 lg:p-10">
+                    <h2 className="text-white text-center md:text-start xl:text-5xl lg:text-4xl text-5xl xl:p-16 p-16 lg:p-10">
                         سلامتی «شما» 
                         برای «ما»
                         مهم است.
