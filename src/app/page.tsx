@@ -1,3 +1,4 @@
+import Footer from '@/components/landingPageComponents/Footer';
 import HamburgerNavbar from '@/components/landingPageComponents/HamburgerNavbar';
 import Hero from '@/components/landingPageComponents/Hero';
 import JoinUs from '@/components/landingPageComponents/Joinus';
@@ -32,6 +33,9 @@ export default function Home() {
         </div>
         <div className='col-span-full'>
           <JoinUs/>
+        </div>
+        <div className='col-span-full'>
+          <Footer />
         </div>
       </div>
     </main>

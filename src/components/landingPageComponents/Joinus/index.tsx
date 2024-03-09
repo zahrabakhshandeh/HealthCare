@@ -8,7 +8,7 @@ const JoinUs = () => {
     return(
         <section>
             <div className="grid lg:grid-cols-6 grid-cols-1 m-16 bg-[var(--primary-blue)] py-10">
-                <div className="lg:col-span-2 col-span-full">
+                <div className="lg:col-span-2 col-span-full md:flex hidden">
                     <JoinUsArt />
                 </div>
                 <div className="lg:col-span-4 flex justify-center items-center flex-col gap-y-40 col-span-full">
