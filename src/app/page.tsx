@@ -1,3 +1,4 @@
+import HamburgerNavbar from '@/components/landingPageComponents/HamburgerNavbar';
 import HeaderSection from '@/components/landingPageComponents/Header_HowWeHelp';
 import Hero from '@/components/landingPageComponents/Hero';
 import Navbar from '@/components/landingPageComponents/Navbar';
@@ -11,6 +12,7 @@ export default function Home() {
       <div className='grid xl:grid-cols-12 col-span-2 lg:col-span-4'>
         <div className='col-span-full sticky top-0 z-40'>
           <Navbar />
+          <HamburgerNavbar />
         </div>
         <div className='col-span-full'>
           <Hero />

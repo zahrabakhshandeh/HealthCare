@@ -3,7 +3,7 @@ import NavElement from "../NavElement";
 
 const Navbar = () => {
     return(
-        <nav className="py-10 flex justify-between bg-[var(--back-ground-white)] p-2  shadow-lg px-10"> 
+        <nav className="py-10 justify-between bg-[var(--back-ground-white)] p-2  shadow-lg px-10 hidden lg:flex"> 
             <div className="text-5xl">
                 LOGO
             </div>
@@ -15,7 +15,7 @@ const Navbar = () => {
                     <NavElement text="خدمات" link='./s'/>
                 </li>
                 <li>
-                    <NavElement text="دباره ما" link='./s'/>
+                    <NavElement text="درباره ما" link='./s'/>
                 </li>
                 <li>
                     <NavElement text="کمک" link='./s'/>
