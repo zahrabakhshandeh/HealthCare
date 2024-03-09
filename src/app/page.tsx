@@ -1,6 +1,6 @@
 import HamburgerNavbar from '@/components/landingPageComponents/HamburgerNavbar';
-import HeaderSection from '@/components/landingPageComponents/Header_HowWeHelp';
 import Hero from '@/components/landingPageComponents/Hero';
+import JoinUs from '@/components/landingPageComponents/Joinus';
 import Navbar from '@/components/landingPageComponents/Navbar';
 import Search from '@/components/landingPageComponents/Search';
 import ServiceSection from '@/components/landingPageComponents/SerciveSection';
@@ -29,6 +29,9 @@ export default function Home() {
         <div className='col-span-full'>
           <TextSection size='desktop'/> 
           <TextSection size='mobile'/> 
+        </div>
+        <div className='col-span-full'>
+          <JoinUs/>
         </div>
       </div>
     </main>
