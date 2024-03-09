@@ -10,7 +10,7 @@ const TextSection = ({ size }: TextSectionType) => {
   const renderTextSectionBySize = useCallback(() => {
     if (size == "desktop") {
       return (
-        <div className="lg:grid space-y-28 items-center gap-y-32 lg:grid-cols-9 grid-cols-2 m-10 mt-36 hidden">
+        <div className="lg:grid space-y-28 items-center gap-y-10 lg:grid-cols-9 grid-cols-2 m-10  hidden">
           <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100">
             <HowToHelp_svg1 />
           </div>
@@ -53,7 +53,7 @@ const TextSection = ({ size }: TextSectionType) => {
     }
     if (size == "mobile") {
       return (
-        <div className="grid grid-cols-2 gap-10 m-10 mt-36 lg:hidden">
+        <div className="grid grid-cols-2 gap-10 m-10  lg:hidden">
           <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
             <HowToHelp_svg1 />
           </div>
@@ -63,7 +63,7 @@ const TextSection = ({ size }: TextSectionType) => {
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
             />
           </div>
-          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 mt-36">
+          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
             <HowToHelp_svg2 />
           </div>
           <div className="lg:col-span-4 col-span-2">
@@ -72,7 +72,7 @@ const TextSection = ({ size }: TextSectionType) => {
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
             />
           </div>
-          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 mt-36">
+          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
             <HowToHelp_svg3 />
           </div>
           <div className="lg:col-span-4 col-span-2">
@@ -81,7 +81,7 @@ const TextSection = ({ size }: TextSectionType) => {
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
             />
           </div>
-          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 mt-36">
+          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
             <HowToHelp_svg4 />
           </div>
           <div className="col-span-2">
@@ -90,7 +90,7 @@ const TextSection = ({ size }: TextSectionType) => {
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
             />
           </div>
-          <div className="mt-36 col-span-2 flex justify-center scale-75 md:scale-100">
+          <div className=" col-span-2 flex justify-center scale-75 md:scale-100">
             <HowToHelp_svg4 />
           </div>
           <div className="lg:col-span-4 col-span-2">
