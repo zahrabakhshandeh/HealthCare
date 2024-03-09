@@ -53,47 +53,38 @@ const TextSection = ({ size }: TextSectionType) => {
     }
     if (size == "mobile") {
       return (
-        <div className="grid grid-cols-2 gap-10 m-10  lg:hidden">
-          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
+        <div className="flex gap-14 flex-col m-10  lg:hidden">
+          <div className="flex justify-center scale-75 md:scale-100 mt-10">
             <HowToHelp_svg1 />
           </div>
-          <div className="lg:col-span-4 col-span-2">
+          <div >
             <TextBox
               tittle="موضوع"
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
             />
           </div>
-          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
+          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 mt-10">
             <HowToHelp_svg2 />
           </div>
-          <div className="lg:col-span-4 col-span-2">
+          <div >
             <TextBox
               tittle="موضوع"
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
             />
           </div>
-          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
+          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 items-center mt-10">
             <HowToHelp_svg3 />
           </div>
-          <div className="lg:col-span-4 col-span-2">
+          <div >
             <TextBox
               tittle="موضوع"
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
             />
           </div>
-          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 ">
+          <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 mt-10">
             <HowToHelp_svg4 />
           </div>
-          <div className="col-span-2">
-            <TextBox
-              tittle="موضوع"
-              body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
-            />
-          </div>
-          <div className=" col-span-2 flex justify-center scale-75 md:scale-100">
-            <HowToHelp_svg4 />
-          </div>
-          <div className="lg:col-span-4 col-span-2">
+          <div className="col-span-2 ">
             <TextBox
               tittle="موضوع"
               body="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای"
