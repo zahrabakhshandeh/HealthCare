@@ -35,6 +35,7 @@ const FormLogin = () => {
               className={`w-full ${
                 errors.phoneNumber && "border border-red-600"
               }`}
+              type="number"
               placeholder="شماره تماس..."
               {...field}
               ref={phoneNumberRef}
