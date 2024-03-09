@@ -16,7 +16,7 @@ export const JoinSchema = yup.object({
     .required("شماره تماس الزامی است"),
 });
 
-const useLogin = () => {
+const useJoinUs = () => {
   const {
     control,
     handleSubmit,
@@ -41,4 +41,4 @@ const useLogin = () => {
   };
 };
 
-export default useLogin;
+export default useJoinUs;
