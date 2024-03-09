@@ -27,7 +27,7 @@ export default function Home() {
         {/* <div className='col-span-full'>
           <HeaderSection/>
         </div> */}
-        <div className='col-span-full'>
+        <div className='col-span-full mt-16'>
           <TextSection size='desktop'/> 
           <TextSection size='mobile'/> 
         </div>
