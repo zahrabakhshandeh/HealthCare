@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <div>
         Health Care
-        <Link href={'/registe/login'}>CLick to navigate login page</Link>
+        <Link href={'/register/login'}>CLick to navigate login page</Link>
       </div>
     </main>
   );
