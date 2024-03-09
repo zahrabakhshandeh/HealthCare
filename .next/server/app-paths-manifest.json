@@ -1,6 +1,5 @@
 {
-  "/register/signup/page": "app/register/signup/page.js",
   "/page": "app/page.js",
-  "/register/login/page": "app/register/login/page.js",
-  "/register/login/userid/page": "app/register/login/userid/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/register/login/page": "app/register/login/page.js"
 }
