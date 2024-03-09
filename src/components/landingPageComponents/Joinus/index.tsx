@@ -2,6 +2,7 @@ import MainButton from "@/components/MainButton";
 import MainInput from "@/components/MainInput";
 import JoinUsArt from "/public/svg/joinUsDoctor.svg";
 import BlueBackGround from "/public/svg/joinUs.svg";
+import JoinUsForm from "./joinUsForm";
 
 const JoinUs = () => {
   return (
@@ -34,16 +35,7 @@ const JoinUs = () => {
       </div>
       <div className="flex flex-col items-center gap-44 w-full lg:w-1/2">
         <h2 className="md:text-7xl text-6xl text-white">بیایید شروع کنیم!</h2>
-        <div className="flex justify-center items-center flex-col w-full gap-7">
-          <MainInput
-            className="lg:w-3/5 w-4/5 py-5"
-            placeholder=" شماره تماس..."
-          />
-          <MainButton
-            value="شروع کنیم"
-            className="bg-[var(--green-btn)] lg:w-3/5 w-4/5 py-4"
-          />
-        </div>
+        <JoinUsForm />
       </div>
     </div>
   );
