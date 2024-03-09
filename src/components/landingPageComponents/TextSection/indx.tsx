@@ -73,7 +73,7 @@ const TextSection = ({ size }: TextSectionType) => {
             />
           </div>
           <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 mt-36">
-            <HowToHelp_svg1 />
+            <HowToHelp_svg3 />
           </div>
           <div className="lg:col-span-4 col-span-2">
             <TextBox
@@ -82,7 +82,7 @@ const TextSection = ({ size }: TextSectionType) => {
             />
           </div>
           <div className="lg:col-span-5 col-span-2 flex justify-center scale-75 md:scale-100 mt-36">
-            <HowToHelp_svg3 />
+            <HowToHelp_svg4 />
           </div>
           <div className="col-span-2">
             <TextBox
