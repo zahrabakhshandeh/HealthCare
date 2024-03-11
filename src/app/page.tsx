@@ -17,6 +17,7 @@ export default function Home() {
         <div className='col-span-full'>
           <Hero />
         </div>
+
         <div className='col-span-full'>
           <ServiceSection />
         </div>
